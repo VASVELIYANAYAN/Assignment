@@ -27,10 +27,10 @@ void main()
     {
         x1 = x0 + h;
 
-        /* Predictor */
+        
         yp = y0 + h * F(x0, y0);
 
-        /* Corrector */
+        
         k1 = F(x0, y0);
         k2 = F(x1, yp);
 
